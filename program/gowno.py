@@ -156,24 +156,29 @@ if rzecz == 4:
     print("wybierz")
     zmiennaE = int(input())
     if zmiennaE == 0:
-     print("dlugosc boku")
-     x = float(input("x: "))
-     odp = 6*x**2
+     print("promień i wysokość")
+     r = float(input("r: "))
+     h = float(input("h: "))
+     odp = (2*math.pi*r**2) + 2*math.pi*r*h
      print("odp to", odp)
     if zmiennaE == 1:
-     print("dlugosc boku")
-     x1 = float(input("x: "))
-     odp1 = x1**3
+     print("promien i wysokość)
+     r = float(input("r: "))
+     h = float(input("h: "))
+     odp1 = math.pi*r**2*h
      print("odp to", odp1)
     if zmiennaE == 2:
      print("dlugosc boku")
-     x2 = float(input("x: "))
-     odp2 = 4*x2
+     a = float(input("a: "))
+     b = float(input("b: "))
+     c = float(input("c: "))
+     odp2 = a + b + c
      print("odp to", odp2)
     if zmiennaE == 3:
-     print("dlugosc boku")
-     x3 = float(input("x: "))
-     odp3 = x3**2
+     print("dlugosc boku i wysokosc")
+     a = float(input("a: "))
+     h = float(input("h: "))
+     odp3 = 1/2(a*h)
      print("odp to", odp3)
 else:
     print("nie to od 0-3")
@@ -186,30 +191,27 @@ if rzecz == 5:
     print("wybierz")
     zmiennaF = int(input())
     if zmiennaF == 0:
-     print("dlugosc bokow")
-     a = float(input("a: "))
-     b = float(input("b: "))
-     c = float(input("b: "))
-     odp = (2*a)*(2*b) + (2*a)*(2*c) + (2*b)*(2*c)
+     print("promień i l)
+     r = float(input("r: "))
+     l = float(input("l: "))
+     odp = (2*math.pi*r**2) + math.pi*r*l
      print("odp to", odp)
     if zmiennaF == 1:
-     print("dlugosci bokow")
-     a = float(input("a: "))
-     b = float(input("b: "))
-     c = float(input("b: "))
-     odp1 = a*b*c
+     print("promień i wysokosc")
+     r = float(input("r: "))
+     h = float(input("h: "))
+     odp1 = 1/3(math.pi*r**2)*h 
      print("odp to", odp1)
     if zmiennaF == 2:
      print("dlugosci bokow")
      a = float(input("a: "))
-     b = float(input("b: "))
-     odp2 = (2*a) + (2*b)
+     odp2 = a*3
      print("odp to", odp2)
     if zmiennaF == 3:
      print("dlugosci bokow")
      a = float(input("a: "))
-     b = float(input("b: "))
-     odp3 = a*b
+     
+     odp3 = (a**2*math.sqrt)/4
      print("odp to", odp3)
 else:
     print("nie to od 0-3")
@@ -222,24 +224,24 @@ else:
     print("wybierz")
     zmiennaG = int(input())
     if zmiennaG == 0:
-     print("dlugosc boku")
-     x = float(input("x: "))
-     odp = 6*x**2
+     print("promień")
+     r = float(input("r: "))
+     odp = 4*math.pi*r**2
      print("odp to", odp)
     if zmiennaG == 1:
      print("dlugosc boku")
-     x1 = float(input("x: "))
-     odp1 = x1**3
+     r = float(input("r: "))
+     odp1 = 4/3*math.pi*r**3
      print("odp to", odp1)
     if zmiennaG == 2:
      print("dlugosc boku")
-     x2 = float(input("x: "))
-     odp2 = 4*x2
+     r = float(input("r: "))
+     odp2 = 2*math.pi*r
      print("odp to", odp2)
     if zmiennaG == 3:
      print("dlugosc boku")
-     x3 = float(input("x: "))
-     odp3 = x3**2
+     r = float(input("r: "))
+     odp3 = math.pi*r**2
      print("odp to", odp3)
 else:
     print("nie to od 0-3")
@@ -251,17 +253,14 @@ if rzecz == 7:
     zmiennaH = int(input())
     if zmiennaH == 0:
      print("dlugosc bokow")
-     a = float(input("a: "))
-     b = float(input("b: "))
-     c = float(input("b: "))
-     odp = (2*a)*(2*b) + (2*a)*(2*c) + (2*b)*(2*c)
+     a = float(input("a: ")
+     odp = 4*a
      print("odp to", odp)
     if zmiennaH == 1:
      print("dlugosci bokow")
-     a = float(input("a: "))
-     b = float(input("b: "))
-     c = float(input("b: "))
-     odp1 = a*b*c
+     a = float(input("a: ")
+     h = float(input("h: ")
+     odp1 = a*h
      print("odp to", odp1)
 else:
     print("nie to od 0-1")
