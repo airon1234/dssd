@@ -86,23 +86,27 @@ if rzecz == 2:
     zmiennaC = int(input())
     if zmiennaC == 0:
      print("dlugosc boku")
-     x = float(input("x: "))
-     odp = 6*x**2
+     a = float(input("a: "))
+     b = float(input("b: "))
+     odp = (a**2)*2 + (a*b)
      print("odp to", odp)
     if zmiennaC == 1:
      print("dlugosc boku")
-     x1 = float(input("x: "))
-     odp1 = x1**3
+     a = float(input("a: "))
+     b = float(input("b: "))
+     odp1 = a**2 * b
      print("odp to", odp1)
     if zmiennaC == 2:
      print("dlugosc boku")
-     x2 = float(input("x: "))
-     odp2 = 4*x2
+     a = float(input("a: "))
+     b = float(input("b: "))
+     odp2 = 2*a + 2*b
      print("odp to", odp2)
     if zmiennaC == 3:
      print("dlugosc boku")
-     x3 = float(input("x: "))
-     odp3 = x3**2
+     a = float(input("a: "))
+     h = float(input("h: "))
+     odp3 = a*h
      print("odp to", odp3)
 else:
     print("nie to od 0-3")
@@ -118,27 +122,28 @@ if rzecz == 3:
      print("dlugosc bokow")
      a = float(input("a: "))
      b = float(input("b: "))
-     c = float(input("b: "))
-     odp = (2*a)*(2*b) + (2*a)*(2*c) + (2*b)*(2*c)
+     odp = (a**2) + (a * b)
      print("odp to", odp)
     if zmiennaD == 1:
      print("dlugosci bokow")
      a = float(input("a: "))
-     b = float(input("b: "))
-     c = float(input("b: "))
-     odp1 = a*b*c
+     h = float(input("h: "))
+     odp1 = (1/3)*(a**2)*h
      print("odp to", odp1)
     if zmiennaD == 2:
      print("dlugosci bokow")
      a = float(input("a: "))
      b = float(input("b: "))
-     odp2 = (2*a) + (2*b)
+     c = float(input("c: "))
+     d = float(input("d: "))
+     odp2 = a + b + c + d
      print("odp to", odp2)
     if zmiennaD == 3:
      print("dlugosci bokow")
      a = float(input("a: "))
      b = float(input("b: "))
-     odp3 = a*b
+     h = float(input("h: "))
+     odp3 = ((a+b)*h)/2
      print("odp to", odp3)
 else:
     print("nie to od 0-3")
