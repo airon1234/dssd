@@ -8,8 +8,7 @@ print("4. Walce i Trójkąt")
 print("5. Stożek i trj Równoboczny")
 print("6. Kula i kolo")
 print("7. Rombu")
-print("8.")
-print("9.")
+print("8.wzory")
 rzecz = int(input())
 if rzecz == 0:
     print("0. pole powierzchni 6-scianu")
@@ -274,23 +273,25 @@ if rzecz == 8:
     zmiennaI = int(input())
     if zmiennaI == 0:
      print("dlugosc boku")
-     x = float(input("x: "))
-     odp = 6*x**2
+     a = float(input("a: "))
+     odp = (a*math.sqrt(3)) / 2
      print("odp to", odp)
     if zmiennaI == 1:
      print("dlugosc boku")
-     x1 = float(input("x: "))
-     odp1 = x1**3
+     a = float(input("a: ")
+     odp1 = a*math.sqrt
      print("odp to", odp1)
     if zmiennaI == 2:
      print("dlugosc boku")
-     x2 = float(input("x: "))
-     odp2 = 4*x2
-     print("odp to", odp2)
+     a = float(input("a: "))
+     b = float(input("b: "))
+     odp2 = a**2 + b**2
+     print("odp to", odp2**2)
     if zmiennaI == 3:
      print("dlugosc boku")
-     x3 = float(input("x: "))
-     odp3 = x3**2
+     e = float(input("e: "))
+     f = float(input("f: "))
+     odp3 = (e*f)/2
      print("odp to", odp3)
 else:
     print("nie to od 0-3")
